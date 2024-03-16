@@ -2,6 +2,7 @@ from kivy.app import App
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.button import Button
 
+
 class GridLayoutApp(App):
     def build(self):
         layout = GridLayout(cols=3, spacing=10, padding=10)
