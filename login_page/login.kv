@@ -1,0 +1,16 @@
+<LoginScreen>:
+    orientation: 'vertical'
+    padding: 50, 100
+
+    TextInput:
+        id: username_input
+        hint_text: "Username"
+
+    TextInput:
+        id: password_input
+        hint_text: "Password"
+        password: True
+
+    Button:
+        text: "Login"
+        on_release: root.save_credentials(self)
